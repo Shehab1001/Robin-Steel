@@ -1,0 +1,45 @@
+/*GLOBAL*/
+
+:root{
+    --main-color: #ff206e;
+}
+
+
+nav .navbar-nav .nav-link.active,nav .navbar-nav .nav-link.show {
+    color: var(--main-color);
+} 
+
+nav .nav-link{
+    color: white;
+}
+
+nav .nav-link:focus,nav .nav-link:hover {
+    color: var(--main-color)
+}
+
+/*---HOME SECTION---*/
+
+#home{
+    background-image: url('/img/bg.jpg');
+    background-size: cover;
+    background-position: center;
+}
+
+#home a {
+    color: var(--main-color);
+    text-decoration: none;
+}
+
+/*SHARED*/
+
+.icon {
+    width: 3rem;
+    height: 3rem;
+    border: 1px solid rgba(255, 255, 255, 0.3);
+    transition: all 0.5s;
+}
+
+.icon:hover {
+    border: 1px solid rgba(255, 255, 255, 1);
+}
+
