@@ -78,3 +78,24 @@ nav .nav-link:focus,nav .nav-link:hover {
 #service {
     background-image: url('/img/dark_dot.jpg');
 }
+
+
+#service .item h4::after{
+    content: "";
+    width: 20%;
+    height: 3px;
+    background-color: var(--main-color);
+    position:absolute;
+    bottom: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    transition: all 0.5s;
+}
+
+#service .item:hover h4::after {
+    width: 40%;
+}
+
+#service .item:hover .icon{
+    color: var(--main-color) !important;
+}
