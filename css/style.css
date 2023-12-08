@@ -1,5 +1,6 @@
 /*GLOBAL*/
 
+
 :root{
     --main-color: #ff206e;
 }
@@ -17,19 +18,6 @@ nav .nav-link:focus,nav .nav-link:hover {
     color: var(--main-color)
 }
 
-/*---HOME SECTION---*/
-
-#home{
-    background-image: url('/img/bg.jpg');
-    background-size: cover;
-    background-position: center;
-}
-
-#home a {
-    color: var(--main-color);
-    text-decoration: none;
-}
-
 /*SHARED*/
 
 .icon {
@@ -43,3 +31,50 @@ nav .nav-link:focus,nav .nav-link:hover {
     border: 1px solid rgba(255, 255, 255, 1);
 }
 
+
+
+/*---HOME SECTION---*/
+
+#home{
+    background-image: url('/img/bg.jpg');
+    background-size: cover;
+    background-position: center;
+}
+
+#home a {
+    color: var(--main-color);
+    text-decoration: none;
+}
+
+
+
+/*---ABOUT SECTION---*/
+
+#about {
+    background-image: url('/img/light_dot.jpg');
+}
+
+.section-header h2{
+    font-size: 3rem;
+    letter-spacing: 20px;
+    color: #e1e1e1;
+}
+
+.section-header h2::after{
+    content: "";
+    width: 20%;
+    height: 3px;
+    background-color: var(--main-color);
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+#about .row .title {
+    color: var(--main-color);
+}
+
+#service {
+    background-image: url('/img/dark_dot.jpg');
+}
