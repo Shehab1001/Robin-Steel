@@ -111,3 +111,14 @@ nav .nav-link:focus,nav .nav-link:hover {
 .carousel-control-next-icon {
   filter: invert(0) grayscale(0) brightness(0);
 }
+
+
+#extra .nav-tabs .nav-item.show .nav-link, #extra .nav-tabs .nav-link.active {
+    border: none;
+    color: var(--main-color);
+}
+
+#extra .nav-tabs .nav-link{
+    border: none;
+    color: gray;
+}
