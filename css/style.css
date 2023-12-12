@@ -99,3 +99,11 @@ nav .nav-link:focus,nav .nav-link:hover {
 #service .item:hover .icon{
     color: var(--main-color) !important;
 }
+
+
+
+.carousel-indicators [data-bs-target] {
+
+    background-color: rgb(77, 77, 77);
+}
+
